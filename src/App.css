@@ -47,3 +47,51 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+
+.input-options {
+  margin-top: 20px;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #7f8c8d;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 42%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.error-message {
+  background-color: #fcefef;
+  color: #e74c3c;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #edf7ff;
+  border-radius: 5px;
+  color: #3498db;
+}
