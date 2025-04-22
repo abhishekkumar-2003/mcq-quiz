@@ -1,0 +1,32 @@
+.quiz-container {
+    margin-top: 20px;
+  }
+  
+  .progress {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .submit-btn {
+    background-color: #27ae60;
+  }
+  
+  .submit-btn:hover {
+    background-color: #219653;
+  }
+  
+  .next-btn {
+    background-color: #3498db;
+  }
+  
+  .next-btn:hover {
+    background-color: #2980b9;
+  }

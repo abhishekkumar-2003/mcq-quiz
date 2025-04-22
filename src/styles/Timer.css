@@ -1,0 +1,15 @@
+.timer-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .timer-container p {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
